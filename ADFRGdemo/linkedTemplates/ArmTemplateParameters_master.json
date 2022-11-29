@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "ADFRGdemo"
 		},
+		"AzureBlobStorage_connectionString": {
+			"value": ""
+		},
 		"containerUri": {
 			"value": ""
 		},
