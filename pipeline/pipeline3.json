@@ -88,11 +88,22 @@
 				"outputs": [
 					{
 						"referenceName": "Binary3",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"fn": {
+								"value": "@pipeline().parameters.FolderName",
+								"type": "Expression"
+							}
+						}
 					}
 				]
 			}
 		],
+		"parameters": {
+			"FolderName": {
+				"type": "string"
+			}
+		},
 		"annotations": []
 	}
 }
