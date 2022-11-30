@@ -8,6 +8,9 @@
 		"AzureBlobStorage_connectionString": {
 			"value": ""
 		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://azuredemokeyvault1.vault.azure.net/"
+		},
 		"containerUri": {
 			"value": ""
 		},
