@@ -165,6 +165,7 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobStorageLocation",
+						"fileName": "1.csv",
 						"container": "demo"
 					}
 				}
