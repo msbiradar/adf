@@ -29,7 +29,8 @@
 					"dataset": {
 						"referenceName": "DelimitedText1",
 						"type": "DatasetReference"
-					}
+					},
+					"firstRowOnly": false
 				}
 			},
 			{
@@ -68,7 +69,9 @@
 									"type": "BinarySource",
 									"storeSettings": {
 										"type": "AzureBlobStorageReadSettings",
-										"recursive": true
+										"recursive": true,
+										"wildcardFileName": "*.csv",
+										"deleteFilesAfterCompletion": false
 									},
 									"formatSettings": {
 										"type": "BinaryReadSettings"
